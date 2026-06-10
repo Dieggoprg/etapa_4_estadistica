@@ -30,7 +30,7 @@ Este análisis está desarrollado en un **Jupyter Notebook** (`.ipynb`). Para ej
     ```Bash
       sudo apt update
       sudo apt install python3 python3-pip python3-venv
-
+```Bash
     Crea y activa un entorno virtual en la carpeta de tu proyecto:
     ```Bash
       python3 -m venv mi_entorno
@@ -39,11 +39,11 @@ Este análisis está desarrollado en un **Jupyter Notebook** (`.ipynb`). Para ej
     Instala las dependencias dentro del entorno virtual:
     ```Bash
       pip install jupyter pandas numpy openpyxl
-
+```Bash
     Inicia Jupyter Notebook ejecutando:
     ```Bash
       jupyter notebook
-
+```Bash
 ### Nota general:
   También puedes subir este notebook junto con el archivo Excel a plataformas en la nube como Google Colab y ejecutarlo directamente en el navegador sin necesidad de instalar ni configurar     nada en tu computadora.
 
@@ -75,7 +75,7 @@ El código está dividido en celdas lógicas para facilitar su lectura y ejecuci
     ```cmd
       df = pd.read_excel("nombre_del_archivo.xlsx")
       horas = df["Cantidad de horas de redes sociales por día"]
-
+```cmd
     Ejecuta las celdas en orden secuencial.
 
 📊 Resultados Esperados
